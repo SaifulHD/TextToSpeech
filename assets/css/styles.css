@@ -1,0 +1,142 @@
+
+
+.card{
+  background-color: #E7E7EF;
+  align-items: center;
+  box-shadow: 
+    12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
+  border-width: 0ch;
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+body {
+  color: #514F4F;
+  align-items: center;
+  background-color: #E7E7EF;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+button{
+  width: 140px;
+  height: 50px;
+  font-size:19px;
+  border-radius: 50px;
+  border-style: none;
+  margin-top: 20px;
+  margin-right: 10px;
+  color: #514F4F;
+  background: #FFFFFF;
+  box-shadow: 
+    18px 18px 30px #D1D9E9, 
+    -18px -18px 30px #FFFFFF;
+}
+button:focus{
+  box-shadow: 
+  inset 18px 18px 30px #D1D9E9, 
+  inset -18px -18px 30px #FFFFFF;
+  border-style: none;
+  outline: none;
+}
+input[type="range"] {
+  width:400px;
+}
+.volume{
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 
+    18px 18px 30px #D1D9E9, 
+    -18px -18px 30px #FFFFFF;
+}
+.bahasa{
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 
+    18px 18px 30px #D1D9E9, 
+    -18px -18px 30px #FFFFFF;
+}
+textarea {
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  min-height: 8rem;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 300;
+  background:#FFFFFF;
+  border: none;
+  border-radius: 1rem;
+  outline: none;
+  box-shadow: 
+    18px 18px 30px #D1D9E9, 
+    -18px -18px 30px #FFFFFF;
+  resize: vertical;
+  transition: ease .2s;
+  cursor: pointer;
+}
+
+textarea::placeholder {
+  color: #9fa8da;
+}
+
+textarea:focus {
+  min-height: 12rem;
+  box-shadow: 
+    inset 18px 18px 30px #D1D9E9, 
+    inset -18px -18px 30px #FFFFFF;
+}
+.titlee{
+  display: flex;
+  justify-content: center;
+  font-family: Montserrat;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+}
+
+.form-select{
+  width:440px;
+  font-size: 13px;
+  padding: 10px 8px 10px 14px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  position: relative;
+}
+.form-select .select{
+  width: 120%;
+}
+
+.form-select .select select{
+  background: transparent;
+  line-height: 1;
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+  width: 120%;
+  position: relative;
+  z-index: 10;
+  font-size: 1em;
+}
+.form-select .select{
+  width: 120%;
+  background:url('arrow.png') no-repeat;
+  background-position:80% center;
+}
+
+.credit{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: -10px;
+}
+.identity{
+  display: flex;
+  justify-content: center;
+  
+}

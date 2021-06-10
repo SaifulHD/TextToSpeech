@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Animated-CSS-Waves-Background-SVG.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300&display=swap" rel="stylesheet">
+</head>
+
+<body class="container mt-5 col-4">
+    <div class="container" style="width: 1138px;margin-top: 0px;">
+        <div class="card">
+            <div class="card-body">
+                <h1 class="titlee">Text-to-Speech</h1>
+                <h3 class="titlee">Teks ke Ucapan</h3>
+                <div class="d-flex mt-4">
+                  <div class="bahasa">
+                    <p>Pilih Bahasa</p>
+                    <select id="voices" class="form-select"></select>
+                  </div>
+                </div>
+
+                <div class="d-flex mt-4">
+                  <div class="volume">
+                    <p class="lead">Volume</p>
+                    <input type="range" min="0" max="100" value="100" step="1" id="volume" />
+                    <span id="volume-label" class="ms-2">100</span>
+                  </div>
+                </div><br><br>
+                <textarea placeholder="Type here..."></textarea>
+                <div class="btn">
+                  <button id="start" >Ucapkan</button>
+                  <button id="cancel">❌ Batalkan</button>
+          </div>
+      </div>
+      
+    </div>
+    <p class="credit">Ihsan Saiful Hadi • Zulhamdi Akbar • Rizal Rafif Rabbani</p><br>
+    <p class="identity">Kelompok 1 • Pengenalan ucapan & teks ke ucapan</p>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+<script src="textToSpeech.js"></script>
+</html>
